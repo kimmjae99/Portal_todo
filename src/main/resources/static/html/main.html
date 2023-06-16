@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Todo_list</title>
+</head>
+<body>
+<div class="container">
+    <h1>To-Do List</h1>
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="할 일을 입력하세요">
+        <select id="todo-date">
+            <option value="">날짜를 선택하세요</option>
+            <option value="2023-06-15">2023-06-15</option>
+            <option value="2023-06-16">2023-06-16</option>
+            <option value="2023-06-17">2023-06-17</option>
+            <!-- 다른 옵션들도 필요에 따라 추가해주세요 -->
+        </select>
+        <button type="submit">추가</button>
+    </form>
+    <ul id="todo-list"></ul>
+</div>
+<script src="../js/todo.js"></script>
+</body>
+</html>
